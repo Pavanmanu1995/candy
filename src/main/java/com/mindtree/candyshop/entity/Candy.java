@@ -14,8 +14,8 @@ public class Candy {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //identity is auto increment and primary 
-	private int id;
-	private String name;
+	//private int id;
+	//private String name;
 	private double price;
 	private int stock;
 	
